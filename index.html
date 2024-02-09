@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Anonymous Rooms</title>
+</head>
+<body>
+
+    <header>
+        <h1>Anonymous Rooms</h1>
+        <p>Create or join rooms with common interests</p>
+    </header>
+
+    <main>
+        <div class="room-form">
+            <label for="interest">Your Interest:</label>
+            <input type="text" id="interest" placeholder="Enter your interest">
+            <label for="duration">Duration:</label>
+            <input type="text" id="duration" placeholder="1 minute to 1 year">
+            <button id="create-room">Create Room</button>
+        </div>
+        <!-- Add room list here -->
+        <div class="room-list" id="room-list">
+            <!-- Room items will be dynamically added here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Anonymous Rooms | Designed by Sathwik Narra</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
